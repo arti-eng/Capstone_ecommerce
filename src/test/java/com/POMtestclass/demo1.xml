@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.ExtentITestNGListeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.POMtestclass.homePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+    <classes>
+       <class name="com.POMtestclass.ProductStoreTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3">
+    <classes>
+       <class name="com.POMtestclass.cartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
